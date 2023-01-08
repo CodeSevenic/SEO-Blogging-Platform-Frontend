@@ -34,7 +34,9 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink>
+                <Link href="/signin">Signin</Link>
+              </NavLink>
             </NavItem>
           </Nav>
           <NavbarText>Simple Text</NavbarText>
