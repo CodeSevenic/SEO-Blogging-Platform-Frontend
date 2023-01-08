@@ -20,6 +20,22 @@ const SignupComponent = () => {
             placeholder="Enter your name"
           />
         </div>
+        <div className="form-group">
+          <input
+            onChange={handleChange}
+            type="email"
+            className="form-control"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div className="form-group">
+          <input
+            onChange={handleChange}
+            type="password"
+            className="form-control"
+            placeholder="Enter your password"
+          />
+        </div>
       </form>
     );
   };
