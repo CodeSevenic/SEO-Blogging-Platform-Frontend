@@ -36,6 +36,9 @@ const SignupComponent = () => {
             placeholder="Enter your password"
           />
         </div>
+        <div>
+          <div className="btn btn-primary">Signup</div>
+        </div>
       </form>
     );
   };
